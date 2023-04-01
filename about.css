@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-header, .img-logo {
+    display: none;
+}
+
+.big-screen-list {
+    display: none;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #272a31;
+    padding: 2rem;
+}
+.display ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0;
+}
+
+.display a {
+    color: #ddd;
+    text-decoration: none;
+}
+.close-button {
+    width: 3rem;
+    height: 3rem;
+    color: #ddd;
+    border: none;
+}
+
+.fa-solid {
+    font-size: 2rem;
+}
+.menu-menu {
+    height: 3rem;
+    width: 3rem;
+    padding: 0 1.5rem;
+    margin-bottom: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+}
+.nav, .first-class {
+    background-image: url('./images/bg-images/home-bg-desk.png');
+    background-size: cover;
+    background-position: 30% 50%;
+    background-repeat: no-repeat;
+}
+.first-class {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.sub-header {
+    color: #ec5242;
+    font-size: 18px;
+}
+
+.main-title {
+    font-size: 2rem;
+    color: #ec5242;
+}
+
+.main-paragraph {
+    font-size: medium;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.sub-paragraph {
+    font-size: medium;
+}
+
+.logo-history {
+    text-align: center;
+}
+
+.logo-title {
+    font-size: larger;
+}
+
+.line-1 {
+    border: 1px solid #ec5242;
+    width: 10%;
+    margin-top: 0;
+}
+
+.image-and-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 90%;
+    border: 1px solid #ddd;
+    margin: auto;
+    padding: 2rem;
+}
+
+.line-and-para {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.image-description {
+    height: 12px;
+}
+hr {
+    width: 100%;
+}
+
+.logo-image {
+    width: 80%;
+    height: fit-content;
+}
+
+.past-events {
+   display: flex;
+   flex-direction: column; 
+   text-align: center;
+}
+/* Styles of Dynamic element */
+
+.footer-section-1 {
+    background-color: #272a31;
+    padding: 3rem 1.5rem;
+}
+
+
+.footer-title {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.partners-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0.5rem;
+    align-items: center;
+}
+
+.partners-logo {
+    height: 3rem;
+    width: 3.5rem;
+}
+
+.footer-section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 10px;
+}
+
+.headers {
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+}
+
+.paragraphs {
+    font-size: 12px;
+}
+
+.copyright-name {
+    border: 2px solid #272a31;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+      width: 100%;
+    }
+
+    .header-header {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 2rem;
+        background-color: #272a31;
+    }
+
+    .header-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .fa-brands {
+        color: #fff;
+    }
+
+    .header-link a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #menu-icon, #close-icon {
+        display: none;
+    }
+
+    .img-logo {
+        display: block;
+        height: 5rem;
+        padding-left: 1rem;
+    }
+    .nav, .first-class {
+        background: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 8rem;
+        align-items: center;
+        height: 5rem;
+        background-color: #fff;
+    }
+
+    .big-screen-list {
+        display: block;
+    }
+
+    .nav-desk-list {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .bg-list-item a {
+        color: #272a31;
+        text-decoration: none;
+    }
+    .bg-list-item a:active {
+        color: #ec5242;
+    }
+
+    .extra a {
+        border-width: 10px;
+        border-color: #ec5242;
+        border-style: double;
+        padding: 5px;
+    }
+
+    /* .first-class {
+        background: url('./images/bg-images/home-bg-desk.png') 50% 50% /cover no-repeat;
+        
+    } */
+}
