@@ -114,9 +114,7 @@ body {
 .line-1 {
     border: 1px solid #ec5242;
     width: 10%;
-    margin-top: 0;
 }
-
 .program-program {
     display: grid;
     grid-template-columns: 0.5fr 1fr 5fr;
@@ -146,6 +144,10 @@ body {
     font-size: medium;
 }
 
+.desktop-only {
+    display: none;
+}
+
 .program-btn {
     height: 4rem;
     width: auto;
@@ -163,7 +165,6 @@ body {
     gap: 1rem;
     align-items: center;
     padding: 1.5rem;
-    border: 1px solid green;
 }
 
 .feture-speakers-title {
@@ -320,7 +321,7 @@ li {
     .nav {
         display: flex;
         justify-content: space-between;
-        padding: 1.5rem 8rem;
+        padding: 1.5rem 6rem 1.5rem 10rem;
         align-items: center;
         height: 5rem;
         background-color: #fff;
@@ -353,6 +354,89 @@ li {
 
     .first-class {
         background: url('./images/bg-images/home-bg-desk.png') 50% 50% /cover no-repeat;
-        padding-inline: 8rem;
+        padding: 3rem 10rem ;
+    }
+
+    .first-container {
+        width: 95%;
+    }
+
+    .sub-header {
+        font-size: 1.5rem;
+    }
+
+    .main-title {
+        font-size: 4rem;
+    }
+
+    .main-paragraph {
+        width: 60%;
+    }    
+    .program-cards {
+        display: flex;
+        gap: 0.1rem;
+        width: 80%;
+        margin: auto;
+    }
+    .program-program {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 15rem;
+        padding: 15px;
+    }
+
+    .program-program:hover {
+        border: 1px solid #ddd;
+    }
+
+    .program-icon-x {
+        padding: 0;
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .program-detail-x {
+        width: auto;
+        text-align: center;
+    }
+
+    .program-btn {
+        display: none;
+    }
+
+    .desktop-only {
+        color: #fff;
+    }
+
+    .line-11 {
+        width: 5%;
+        border: 1px solid #ec5242;
+    }
+
+    .speaker-section {
+        width: 80%;
+        margin: auto;
+    }
+
+    .feature-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .button-load {
+        display: none;
+    }
+
+    .line-12 {
+        width: 30%;
+        border: 1px solid #ec5242;
+    }
+
+    .footer-section-1 {
+        width: 60%;
+        padding: 0;
     }
 }

@@ -48,7 +48,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Loom video Link](https://www.loom.com/share/48a1b1da75944902818f4743d2c16336)
-- [Live Demo Link](https://innocent259.github.io/Capstone-project/)
+- [Live Demo Link](https://innocent259.github.io/FIFA-congress-meeting-web/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,7 +62,7 @@ Installed node.js and any IDE like Visual Studio Code.
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/Innocent259/Capstone-project
+https://github.com/Innocent259/FIFA-congress-meeting-web
 
 Change directory Capstone-project in your terminal
 ### Install
