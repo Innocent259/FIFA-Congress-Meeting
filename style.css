@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    color: #272a31;
 }
 
 .header-header, .img-logo {
@@ -97,9 +98,10 @@ body {
 }
 
 .program-details {
-    background: url('./images/bg-images/mainpage.svg') 50% 50% /cover no-repeat;
+    background: url('./images/bg-images/dot.png') center center fixed;
     background-color: #272a31;
-    padding: 3rem 1.5rem;
+    padding: 3rem;
+    margin: 0;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -138,7 +140,7 @@ body {
     grid-template-rows: auto;
     grid-column-gap: 0.5rem;
     height: 10rem;
-    background-color: rgba(211, 211, 211, 0.05);
+    background-color: rgba(211, 211, 211, 0.2);
     text-align: center;
     align-items: center;
 }
