@@ -45,10 +45,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & Loom Video <a name="live-demo"></a>
 
-- [Loom video Link](https://www.loom.com/share/48a1b1da75944902818f4743d2c16336)
 - [Live Demo Link](https://innocent259.github.io/FIFA-congress-meeting-web/)
+
+- [Loom video Link](https://www.loom.com/share/939e7e2686db41e798d02db8fab35a6d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
