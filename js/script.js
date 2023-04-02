@@ -13,7 +13,7 @@ const data = [
     Name: 'Paul Kagame',
     Title: 'President of the Republic of Rwanda',
     Description: 'Paul Kagame is a Rwandan politician and former military officer who is the fourth and current president of Rwanda since 2000.',
-    Img: './images/speaker1.png',
+    Img: './images/page-images/Paul_Kagame.webp',
     Alt: 'speaker1',
   },
 
@@ -21,7 +21,7 @@ const data = [
     Name: 'Gianni Infantino',
     Title: 'FIFA President',
     Description: 'Giovanni Vincenzo "Gianni" Infantino is a Swiss football administrator and the current president of FIFA. He was first elected to the office during the 2016.',
-    Img: './images/speaker2.png',
+    Img: './images/page-images/infant.png',
     Alt: 'speaker2',
   },
 
@@ -29,7 +29,7 @@ const data = [
     Name: 'Fatma Samoura',
     Title: 'Secretary General',
     Description: 'Fatma Samba Diouf Samoura is a Senegalese former diplomat and senior executive. She was appointed as the first female Secretary General of FIFA by President Gianni Infantino.',
-    Img: './images/fifaspeaker2.png',
+    Img: './images/page-images/Fatma-Samoura.png',
     Alt: 'speaker3',
   },
 
@@ -37,7 +37,7 @@ const data = [
     Name: 'Gianni Infantino',
     Title: 'FIFA President',
     Description: 'Giovanni Vincenzo "Gianni" Infantino is a Swiss football administrator and the current president of FIFA. He was first elected to the office during the 2016.',
-    Img: './images/speaker2.png',
+    Img: './images/page-images/infant.png',
     Alt: 'speaker4',
   },
 
@@ -45,7 +45,7 @@ const data = [
     Name: 'Fatma Samoura',
     Title: 'Secretary General',
     Description: 'Fatma Samba Diouf Samoura is a Senegalese former diplomat and senior executive. She was appointed as the first female Secretary General of FIFA by President Gianni Infantino.',
-    Img: './images/fifaspeaker2.png',
+    Img: './images/page-images/Fatma-Samoura.png',
     Alt: 'speaker5',
   },
 
@@ -53,7 +53,7 @@ const data = [
     Name: 'Paul Kagame',
     Title: 'President of the Republic of Rwanda',
     Description: 'Paul Kagame is a Rwandan politician and former military officer who is the fourth and current president of Rwanda since 2000.',
-    Img: './images/speaker1.png',
+    Img: './images/page-images/Paul_Kagame.webp',
     Alt: 'speaker6',
   },
 ];
@@ -63,12 +63,17 @@ const moreButton = document.querySelector('#load-more');
 const mobileMaxWidth = 768;
 const mobileSpeakersToShow = 2;
 const desktopSpeakersToShow = 6;
-let speakersToShow = getInitialSpeakersToShow(); 
+
+function getInitialSpeakersToShow() {
+  return window.innerWidth <= mobileMaxWidth ? mobileSpeakersToShow : desktopSpeakersToShow;
+}
+
+let speakersToShow = getInitialSpeakersToShow();
 let speakersDisplayed = speakersToShow;
 
 function loadSpeakers() {
   let content = '';
-  for (let i = 0; i < speakersDisplayed; i++) {
+  for (let i = 0; i < speakersDisplayed; i += 1) {
     const item = data[i];
     content += `
       <div class="card">
@@ -85,10 +90,6 @@ function loadSpeakers() {
     `;
   }
   sectionContainer.innerHTML = content;
-}
-
-function getInitialSpeakersToShow() {
-  return window.innerWidth <= mobileMaxWidth ? mobileSpeakersToShow : desktopSpeakersToShow;
 }
 
 loadSpeakers();
