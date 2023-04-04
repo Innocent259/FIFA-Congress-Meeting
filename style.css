@@ -81,13 +81,14 @@ body {
 }
 
 .main-title {
-  font-size: 2rem;
   margin: auto;
   background-image: url('./images/bg-images/Texture.jpg');
   color: transparent;
   font-weight: bolder;
   background-clip: unset;
   -webkit-background-clip: text;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .main-paragraph {
@@ -311,7 +312,7 @@ li {
   .header-header {
     display: flex;
     justify-content: flex-end;
-    padding-right: 2rem;
+    padding-right: 7rem;
     background-color: #272a31;
   }
 
@@ -337,7 +338,7 @@ li {
 
   .img-logo {
     display: block;
-    height: 5rem;
+    height: 4rem;
     padding-left: 1rem;
   }
 
@@ -366,9 +367,9 @@ li {
   }
 
   .extra a {
-    border-width: 10px;
+    border-width: 6px;
     border-color: #ec5242;
-    border-style: double;
+    border-style: solid;
     padding: 5px;
   }
 
@@ -383,7 +384,7 @@ li {
 
   .first-class {
     background: url('./images/bg-images/home-bg-desk.png') 50% 50% /cover no-repeat;
-    padding: 3rem 10rem;
+    padding: 3rem;
   }
 
   .first-container {
@@ -395,9 +396,16 @@ li {
   }
 
   .main-title {
+    margin: auto;
+    background-image: url('./images/bg-images/Texture.jpg');
+    color: transparent;
+    font-weight: bolder;
+    background-clip: unset;
+    -webkit-background-clip: text;
     font-size: 4rem;
+    font-weight: 900;
   }
-
+  
   .main-paragraph {
     width: 60%;
   }
