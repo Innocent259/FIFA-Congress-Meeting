@@ -84,7 +84,6 @@ body {
   margin: auto;
   background-image: url('./images/bg-images/Texture.jpg');
   color: transparent;
-  font-weight: bolder;
   background-clip: unset;
   -webkit-background-clip: text;
   font-size: 2rem;
@@ -212,8 +211,9 @@ body {
 .card-image {
   display: flex;
   position: relative;
-  height: 100%;
+  height: 80%;
   width: auto;
+  margin: auto;
 }
 
 .card-image-x {
@@ -399,13 +399,13 @@ li {
     margin: auto;
     background-image: url('./images/bg-images/Texture.jpg');
     color: transparent;
-    font-weight: bolder;
     background-clip: unset;
     -webkit-background-clip: text;
     font-size: 4rem;
     font-weight: 900;
+    line-height: 5rem;
   }
-  
+
   .main-paragraph {
     width: 60%;
   }
