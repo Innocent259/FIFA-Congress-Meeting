@@ -111,7 +111,7 @@ Give a star if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Before anything else, I want to extend my sincerest appreciation to<a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin in Behance</a>, whose original design for this project (available on Behance) served as a crucial inspiration. I am also immensely grateful to the Microverse team for granting me access to this opportunity.
+Before anything else, I want to extend my sincerest appreciation to Cindy Shin in Behance, whose original design for this project available on <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> Behance </a>, served as a crucial inspiration. I am also immensely grateful to the Microverse team for granting me access to this opportunity.
 
 I must also express my deep gratitude to my coding partners, who have always been there for me when I needed help.
 
